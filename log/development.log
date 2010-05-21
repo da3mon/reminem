@@ -27,3 +27,614 @@ Migrating to CreateRappers (20100521034638)
   [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
   [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
   [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20100521034638')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:08:51', '2010-05-21 06:08:51', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:08:51', '2010-05-21 06:08:51', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:12:43', '2010-05-21 06:12:43', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:12:43', '2010-05-21 06:12:43', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:13:24', '2010-05-21 06:13:24', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:13:24', '2010-05-21 06:13:24', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:16:31', '2010-05-21 06:16:31', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:16:31', '2010-05-21 06:16:31', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 7) [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 8) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:16:31', '2010-05-21 06:16:31', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:16:31', '2010-05-21 06:16:31', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:16:31', '2010-05-21 06:16:31', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:16:31', '2010-05-21 06:16:31', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 15) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 16) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:17:10', '2010-05-21 06:17:10', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:18:39', '2010-05-21 06:18:39', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:18:39', '2010-05-21 06:18:39', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:18:39', '2010-05-21 06:18:39', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.1ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:18:39', '2010-05-21 06:18:39', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 23) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 24) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 23) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:18:39', `name` = 'eminem' WHERE `id` = 23[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 24) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:18:39', `name` = 'eminem' WHERE `id` = 24[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.7ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (23)) [0m
+  [4;35;1mRapper Delete all (0.8ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (24)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:18:39', '2010-05-21 06:18:39', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:18:39', '2010-05-21 06:18:39', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 25) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 25[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 26) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 26[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:19:20', '2010-05-21 06:19:20', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:19:20', '2010-05-21 06:19:20', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:19:20', '2010-05-21 06:19:20', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:19:20', '2010-05-21 06:19:20', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 29) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 30) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 29) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:19:20', `name` = 'eminem' WHERE `id` = 29[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 30) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:19:20', `name` = 'eminem' WHERE `id` = 30[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.6ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (29)) [0m
+  [4;35;1mRapper Delete all (0.4ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (30)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:19:20', '2010-05-21 06:19:20', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:19:20', '2010-05-21 06:19:20', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 31) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 31[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 32) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 32[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:20:45', '2010-05-21 06:20:45', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:20:45', '2010-05-21 06:20:45', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:20:45', '2010-05-21 06:20:45', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:20:45', '2010-05-21 06:20:45', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 35) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 36) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 35) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:20:45', `name` = 'eminem' WHERE `id` = 35[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 36) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.3ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:20:45', `name` = 'eminem' WHERE `id` = 36[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.6ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (35)) [0m
+  [4;35;1mRapper Delete all (0.5ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (36)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:20:45', '2010-05-21 06:20:45', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:20:45', '2010-05-21 06:20:45', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 37) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 37[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 38) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 38[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:21:28', '2010-05-21 06:21:28', NULL)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:21:28', '2010-05-21 06:21:28', NULL)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:21:28', '2010-05-21 06:21:28', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:21:28', '2010-05-21 06:21:28', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 41) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 42) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 41) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:21:28', `name` = 'eminem' WHERE `id` = 41[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 42) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:21:28', `name` = 'eminem' WHERE `id` = 42[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.5ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (41)) [0m
+  [4;35;1mRapper Delete all (0.5ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (42)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:21:28', '2010-05-21 06:21:28', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:21:28', '2010-05-21 06:21:28', NULL)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 43) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 43[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 44) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 44[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:16', '2010-05-21 06:22:16', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:16', '2010-05-21 06:22:16', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:16', '2010-05-21 06:22:16', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:16', '2010-05-21 06:22:16', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 47) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 48) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 47) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.3ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:22:16', `name` = 'eminem' WHERE `id` = 47[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 48) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:22:16', `name` = 'eminem' WHERE `id` = 48[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.6ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (47)) [0m
+  [4;35;1mRapper Delete all (0.5ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (48)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:16', '2010-05-21 06:22:16', NULL)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:16', '2010-05-21 06:22:16', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 49) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 49[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 50) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.1ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 50[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:38', '2010-05-21 06:22:38', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:38', '2010-05-21 06:22:38', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:38', '2010-05-21 06:22:38', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:38', '2010-05-21 06:22:38', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 53) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 54) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 53) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:22:38', `name` = 'eminem' WHERE `id` = 53[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 54) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:22:38', `name` = 'eminem' WHERE `id` = 54[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.6ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (53)) [0m
+  [4;35;1mRapper Delete all (0.4ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (54)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:38', '2010-05-21 06:22:38', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:22:38', '2010-05-21 06:22:38', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 55) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 55[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 56) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 56[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:23:02', '2010-05-21 06:23:02', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:23:02', '2010-05-21 06:23:02', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 58) [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 57) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 58) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:23:02', `name` = 'eminem' WHERE `id` = 58[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 57) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:23:02', `name` = 'eminem' WHERE `id` = 57[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.6ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (58)) [0m
+  [4;35;1mRapper Delete all (0.4ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (57)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:23:02', '2010-05-21 06:23:02', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:23:02', '2010-05-21 06:23:02', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 59) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 59[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 60) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.1ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 60[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:15', '2010-05-21 06:27:15', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:15', '2010-05-21 06:27:15', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:15', '2010-05-21 06:27:15', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.1ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:15', '2010-05-21 06:27:15', NULL)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 63) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 64) [0m
+  [4;36;1mRapper Load (0.1ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 63) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:15', `name` = 'eminem' WHERE `id` = 63[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 64) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:15', `name` = 'eminem' WHERE `id` = 64[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Update (0.2ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:15', `name` = 'eminem' WHERE `id` = 63[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:15', `name` = 'eminem' WHERE `id` = 64[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:57', '2010-05-21 06:27:57', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:57', '2010-05-21 06:27:57', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:57', '2010-05-21 06:27:57', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:57', '2010-05-21 06:27:57', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 67) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 68) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.1ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 67) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:57', `name` = 'eminem' WHERE `id` = 67[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 68) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.3ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:57', `name` = 'eminem' WHERE `id` = 68[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Update (0.2ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:57', `name` = 'eminem' WHERE `id` = 67[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:27:57', `name` = 'eminem' WHERE `id` = 68[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Destroy (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE `id` = 67[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.1ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 68[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:57', '2010-05-21 06:27:57', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:27:57', '2010-05-21 06:27:57', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 73) [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 74) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 73) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:28:16', `name` = 'eminem' WHERE `id` = 73[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 74) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:28:16', `name` = 'eminem' WHERE `id` = 74[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Update (0.2ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:28:16', `name` = 'eminem' WHERE `id` = 73[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:28:16', `name` = 'eminem' WHERE `id` = 74[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Destroy (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE `id` = 73[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.1ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 74[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.7ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.5ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (75)) [0m
+  [4;35;1mRapper Delete all (0.5ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (76)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:28:16', '2010-05-21 06:28:16', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 77) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 77[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 78) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 78[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mRapper Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `rappers`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.1ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 81) [0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 82) [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mRapper Load (0.1ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mRapper Load (0.1ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mRapper Load (0.6ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 81) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:29:14', `name` = 'eminem' WHERE `id` = 81[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 82) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:29:14', `name` = 'eminem' WHERE `id` = 82[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Update (0.2ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:29:14', `name` = 'eminem' WHERE `id` = 81[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:29:14', `name` = 'eminem' WHERE `id` = 82[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Destroy (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE `id` = 81[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.1ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 82[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.5ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (83)) [0m
+  [4;35;1mRapper Delete all (0.4ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (84)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 85) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 85[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 86) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 86[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('humpty', '2010-05-21 06:29:14', '2010-05-21 06:29:14', NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mRapper Delete all (0.6ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (87)) [0m
+  [4;35;1mRapper Delete all (0.4ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (88)) [0m

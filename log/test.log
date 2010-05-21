@@ -1308,3 +1308,295 @@
   [4;35;1mRapper Destroy (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE `id` = 194[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
   [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `rappers`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.3ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 120) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Update (0.2ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:01:05', `name` = 'Ludacris' WHERE `id` = 120[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 121) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.4ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Load (0.3ms)[0m   [0mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.4ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Delete all (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (125)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Load (0.7ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 126) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Destroy (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE `id` = 126[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Update (0.3ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:01:05', `name` = 'snoop' WHERE `id` = 127[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.3ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Update (0.3ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:01:05', `name` = 'snoop' WHERE `id` = 128[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Delete all (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (129)) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:01:05', '2010-05-21 06:01:05', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Destroy (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE `id` = 130[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `rappers`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.3ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 132) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Update (0.2ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:02:11', `name` = 'Ludacris' WHERE `id` = 132[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (1.0ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 133) [0m
+  [4;35;1mSQL (1.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Delete all (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (137)) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.4ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 138) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 138[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Update (0.3ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:02:11', `name` = 'snoop' WHERE `id` = 139[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.7ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Update (0.3ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:02:11', `name` = 'snoop' WHERE `id` = 140[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Delete all (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (141)) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:02:11', '2010-05-21 06:02:11', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Destroy (0.3ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 142[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `rappers`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.3ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:01', '2010-05-21 06:03:01', 3)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:01', '2010-05-21 06:03:01', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Load (0.2ms)[0m   [0mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 144) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Update (0.3ms)[0m   [0mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:03:01', `name` = 'Ludacris' WHERE `id` = 144[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:01', '2010-05-21 06:03:01', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 145) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:01', '2010-05-21 06:03:01', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:01', '2010-05-21 06:03:01', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` ORDER BY rappers.id DESC LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:01', '2010-05-21 06:03:01', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (1.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:01', '2010-05-21 06:03:01', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Delete all (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE (`id` IN (149)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.2ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:02', '2010-05-21 06:03:02', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.3ms)[0m   [0;1mSELECT * FROM `rappers` WHERE (`rappers`.`id` = 150) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Destroy (0.4ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 150[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:02', '2010-05-21 06:03:02', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Update (0.3ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:03:02', `name` = 'snoop' WHERE `id` = 151[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.3ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:02', '2010-05-21 06:03:02', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Update (0.4ms)[0m   [0;1mUPDATE `rappers` SET `updated_at` = '2010-05-21 06:03:02', `name` = 'snoop' WHERE `id` = 152[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:02', '2010-05-21 06:03:02', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mRapper Delete all (0.2ms)[0m   [0mDELETE FROM `rappers` WHERE (`id` IN (153)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mRapper Create (0.2ms)[0m   [0mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:03:02', '2010-05-21 06:03:02', 3)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Destroy (0.2ms)[0m   [0;1mDELETE FROM `rappers` WHERE `id` = 154[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `rappers`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.3ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:10:38', '2010-05-21 06:10:38', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `rappers`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.4ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:10:47', '2010-05-21 06:10:47', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `rappers`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.3ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:10:55', '2010-05-21 06:10:55', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mRapper Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `rappers`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mRapper Create (0.9ms)[0m   [0;1mINSERT INTO `rappers` (`name`, `created_at`, `updated_at`, `album_count`) VALUES('Eminem', '2010-05-21 06:11:02', '2010-05-21 06:11:02', 3)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mRapper Load (0.2ms)[0m   [0;1mSELECT * FROM `rappers` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m

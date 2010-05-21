@@ -32,7 +32,7 @@ class ActiveRecord::Base
     end    
   end
 
-  %w(save update_attributes destroy).each do |method_name|
+  %w(save update_attributes destroy delete).each do |method_name|
     define_method "#{method_name}_with_redis_benchmark" do |*args|
       result = nil
       self.class.redis_benchmark(method_name) { result = send("#{method_name}_without_redis_benchmark", *args) }
