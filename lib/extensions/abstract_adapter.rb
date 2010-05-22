@@ -29,7 +29,7 @@ class ActiveRecord::Base
       define_method "#{method_name}_benchmarks" do
         benchmarks_for(method_name)
       end
-    end    
+    end
   end
 
   %w(save update_attributes destroy delete).each do |method_name|
